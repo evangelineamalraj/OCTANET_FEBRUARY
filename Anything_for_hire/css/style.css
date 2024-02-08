@@ -1,0 +1,262 @@
+body {
+    color:rgb(54, 47, 47)
+}
+
+.banner-section {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 30rem;
+    background-color: hsla(0, 0%, 0%, 0.25);
+}
+
+.banner-section:hover {
+    opacity: 0.9;
+}
+
+
+.service-section {
+       background-color:#e6e1db6b;
+}
+
+.btn {
+    color: bisque !important;
+}
+
+nav {
+    position: fixed !important;
+    padding: 10px 100px;
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    z-index: 9999;
+}
+
+nav.scroll-nav {
+background: rgba(0, 0, 0, .9)!important;
+border-bottom:orangered solid 3px;
+-webkit-box-shadow: 0px 1px 3px 0px #777;
+	   -moz-box-shadow: 0px 1px 3px 0px #777;
+            box-shadow: 0px 1px 3px 0px #777;
+            z-index: 9999 !important;
+            opacity: 1;
+                   
+}
+
+.img-logo {
+    width: 50px;
+}
+
+.brand-name {
+    font-size: 2rem;
+    text-shadow: 1.5px 0px 1px #171515f7;
+}
+.btn-read-mr {
+    color:rgb(54, 47, 47) !important;
+    border-radius: 0 !important;
+}
+
+footer {
+    background-color: rgb(16, 18, 54);
+}
+
+footer pre {
+    margin-left: -10rem;
+}
+
+.text-white-header {
+    font-weight: lighter;
+    font-size: 4rem;
+    text-shadow: 1px 0px 2px #131212;
+}
+
+.input-srch-style {
+    height: 2.7rem;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-right: none;
+}
+
+.input-post {
+    height: 2.7rem;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: none;
+}
+
+.input-prepend {
+    height: 2.7rem;
+    border-left: none;
+    border-right: none;
+    width: 5px;
+    border-radius: 0px;
+    background-color: white;
+}
+
+.vert-divider {
+    height: 2.9rem;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.search-box .form-control:focus {
+    border-color: #ffff !important;
+    box-shadow: none !important;
+}
+
+.bnr-text, .bnr-text-1 {
+    margin-top: 9rem !important;
+}
+
+
+.text-orange {
+    color: darkorange!important;
+}
+
+.text-viol {
+    color: #1e77d1;
+}
+
+.btn-orange {
+    background-color: darkorange;
+}
+
+.btn-orange:hover {
+    background-color: #ef880b;
+}
+
+.btn-outline-orange {   
+    background-color: transparent;
+    background-image: none;
+    border-color: darkorange;
+}
+
+.btn-outline-orange:hover {
+    color: #212529;
+    background-color: darkorange;
+    border-color: darkorange;
+}
+
+.social-icons {
+    color: #ffff;
+    font-size: larger;
+    background-color: hsla(210, 10%, 23%, 0.5);
+    border-radius: 6px;
+}
+
+.social-icons .fa {
+    padding: 10px 10px;
+}
+
+.social-icons .fa:hover {
+    background-color: hsla(219, 88%, 53%, 0.74);
+    padding: 9px 10px;
+    border-radius: 6px;
+}
+
+.img-res-style {
+    max-width: 130px;
+    border: 1px solid #ffff;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.img-mobile {
+    max-width: 250px;
+}
+
+.btn-raised {
+    transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), transform .4s cubic-bezier(.25, .8, .25, 1);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+}
+
+.btn-raised:not([disabled]):hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+    transform: translate3d(0, -1px, 0);
+}
+
+footer .text-width {
+    max-width: 70%;
+    display: inline-block;
+}
+
+/* index Style Ends */
+
+/* Contact Form Style Begins */
+
+.contact-form {
+    width: 50%;
+    background-color: #dee2e6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 2px #b7aeae;
+}
+
+.contact-form label {
+    float: left;
+    font-size: 1.3rem;
+    color: #495057;
+}
+
+.contact-form .form-group {
+    margin-bottom: 2rem;
+}
+
+.contact-form .error {
+    font-size: 1rem;
+    color: red;
+}
+
+#mobNumber::before {
+content: '+91';
+}
+
+/* Contact Form style ends */
+
+
+
+/* Rating styling */
+
+.rating {
+    background-color: rosybrown;
+    border-radius: 3px;
+    color:white;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.rating i, .rating-input i {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.rating-input {
+    background-color:rgb(26, 165, 26);
+    border-radius: 3px;
+    color:white;
+    height: 30px;
+    padding: 5px;
+}
+
+.icon-list .fa-sticky-note {
+    color: hsla(219, 88%, 53%, 0.74);
+}
+
+.icon-list .fa-list {
+color: darkorange;
+}
+
+.icon-list .fa-pie-chart {
+color:#dc3545;
+}
+
+.icon-list .fa-sliders {
+color: #343a40;
+}
+
+.service-section .fa-comments-o {
+    color: darkorange;
+}
