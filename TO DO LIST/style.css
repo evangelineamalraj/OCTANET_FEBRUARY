@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("sea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.content > .container {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width:100%;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background:transparent;
+}
+header .container{
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.logo{
+    display:flex;
+    gap:14px;
+    align-items: center;
+}
+.logo img{
+    height: 55px;
+    width: 55px;
+}
+.logo p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 550;
+    cursor:default;
+}
+a{
+    text-decoration:underline;
+    color:rgb(77, 3, 40);
+}
+ul{
+    display: flex;
+    gap:14px;
+    list-style: none; 
+}
+ul{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+.main{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+}
+.main img{
+    display: block;
+    margin: auto;
+    height: 100px;
+    filter: drop-shadow(20px 20px 40px rgba(0, 0, 0, 0.84));
+}
+.content{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin: auto;
+    height: 500px;
+}
+.todo{
+    cursor:url(pen.jpg);
+    display: flex;
+    padding: 14px;
+}
+.todo_value{
+    cursor: inherit;
+    background: transparent;
+    border: none;
+    outline: rgb(131, 4, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    flex-grow:1;
+    border-bottom: 2px solid rgba(109, 3, 3, 0.758);
+}
+.todo_checkbox{
+    cursor: inherit;
+}
+.todo:has(.todo_checkbox:checked){
+    color: crimson;
+    background: rgba(0, 0, 0, 0.135);
+    text-decoration: line-through 3.5px;
+    order: 1;
+}
